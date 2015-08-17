@@ -42,7 +42,9 @@ article p {
 }
 
 article ul li:before {
-  content: "*";
+  content: "-";
+  margin-right: 16px;
+  color: rgb(100,100,100);
 }
 
 footer {
