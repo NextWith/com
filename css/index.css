@@ -5,10 +5,12 @@ h1,h2,h3,h4,p {
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 ul,
 ul li {
+  box-sizing: border-box;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,6 +21,7 @@ a {
 }
 
 header {
+  box-sizing: border-box;
   margin: 0;
   padding: 16px;
   width: 100%;
@@ -27,12 +30,14 @@ header {
 }
 
 article {
+  box-sizing: border-box;
   color: rgb(50,50,50);
   padding: 16px;
   background: rgb(255,255,255);
 }
 
 footer {
+  box-sizing: border-box;
   color: rgb(50,50,50);
   background: rgb(240,240,240);
   text-align: center;
