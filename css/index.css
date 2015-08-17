@@ -29,6 +29,11 @@ header {
   color: rgb(50,50,50);
 }
 
+header h1 a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 article {
   box-sizing: border-box;
   color: rgb(50,50,50);
@@ -46,6 +51,31 @@ article ul li:before {
   content: "-";
   margin-right: 8px;
   color: rgb(100,100,100);
+}
+
+article hr {
+  border: transparent solid 0;
+  background: rgb(240,240,240);
+  width: 100%;
+  height: 1px;
+  margin: 16px 0 16px 0;
+  display: block;
+}
+
+.p-members article ul li:before {
+  content: "";
+}
+
+.p-members article > ul > li {
+  border-bottom: rgb(240,240,240) solid 1px;
+}
+
+.p-members article ul li profile-card ul li.what:before {
+  content: "WHO";
+}
+
+.p-members article ul li profile-card ul li.twitter:before {
+  content: "TWITTER"
 }
 
 footer {
