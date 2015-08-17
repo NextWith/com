@@ -1,4 +1,4 @@
-h1,h2,h3,h4 {
+h1,h2,h3,h4,p {
   margin: 0;
 }
 
@@ -7,9 +7,34 @@ body {
   margin: 0;
 }
 
+ul,
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(24, 139, 233);
+}
+
 header {
   margin: 0;
   padding: 16px;
   width: 100%;
-  background: rgb(200,200,200);
+  background: rgb(240,240,240);
+  color: rgb(50,50,50);
+}
+
+article {
+  color: rgb(50,50,50);
+  padding: 16px;
+  background: rgb(255,255,255);
+}
+
+footer {
+  color: rgb(50,50,50);
+  background: rgb(240,240,240);
+  text-align: center;
+  padding: 50vh 0 50vh 0;
 }
