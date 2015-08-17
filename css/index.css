@@ -37,7 +37,8 @@ article {
 }
 
 article p {
-  line-height: 2em;
+  margin-bottom: .5em;
+  letter-spacing: 1px;
 }
 
 footer {
