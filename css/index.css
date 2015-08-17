@@ -36,7 +36,8 @@ article {
   background: rgb(255,255,255);
 }
 
-article p {
+article p,
+article ul {
   margin-bottom: .5em;
   letter-spacing: 1px;
 }
