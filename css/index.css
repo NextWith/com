@@ -36,6 +36,10 @@ article {
   background: rgb(255,255,255);
 }
 
+article p {
+  line-height: 2em;
+}
+
 footer {
   box-sizing: border-box;
   color: rgb(50,50,50);
