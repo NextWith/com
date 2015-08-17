@@ -41,6 +41,10 @@ article p {
   letter-spacing: 1px;
 }
 
+article ul li:before {
+  content: "*";
+}
+
 footer {
   box-sizing: border-box;
   color: rgb(50,50,50);

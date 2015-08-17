@@ -1,0 +1,21 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<dom-module id="nextwith-header">
+  <template>
+    <header>
+      <h1 class="webType6 webTypeBold">NextWith</h1>
+      <p>{{ message }}</p>
+    </header>
+    <script>
+    Polymer({
+      is: "x-hoge", // x-fuga
+
+      properties: {
+        message: {
+          type: String,
+          value: "Hoge!" // "Fuga!"
+        }
+      }
+    });
+  </script>
+  </template>
+</dom-module>
