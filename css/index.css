@@ -44,7 +44,7 @@ article ul {
 
 article ul li:before {
   content: "-";
-  margin-right: 16px;
+  margin-right: 8px;
   color: rgb(100,100,100);
 }
 
@@ -53,5 +53,5 @@ footer {
   color: rgb(50,50,50);
   background: rgb(240,240,240);
   text-align: center;
-  padding: 50vh 0 50vh 0;
+  padding: 40vh 0 60vh 0;
 }
